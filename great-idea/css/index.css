@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,51 +16,239 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing:border-box;
+padding:0;
+margin:0;
+max-width:100%;
+;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav a {
+color: grey;
+margin: 0 20px;
+padding: 5px;
+
+}
+
+
+
+nav {
+display:flex;
+justify-content:center;
+margin-top: 20px;
+}
+
+.logo {
+margin-left: 10px;
+}
+
+
+.top {
+display:flex;
+justify-content:center;
+padding-top: 80px;
+}
+
+.on {
+padding-left: 100px;
+}
+
+.demand {
+padding-left: 30px;
+}
+
+
+.main1 {
+display:flex;
+justify-content: center;
+
+font-size: 80px;
+}
+
+
+.main2{
+display:flex;
+width:50%;
+
+font-size:30px;
+margin:auto;
+padding-bottom:30px;
+}
+
+
+.other {
+display:flex;
+
+}
+
+
+.middle {
+width: 50%;
+display:flex;
+justify-content:space-around;
+margin:auto;
+}
+
+
+
+
+
+.middle-img {
+display:flex;
+justify-content: center;
+margin:auto;
+}
+
+.bottom {
+display:flex;
+justify-content:space-around;
+justify-content: space-evenly;
+margin:auto;
+width:50%;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+
+
+footer {
+display:flex;
+width:50%;
+justify-content: left;
+margin:auto;
+}
+
+
+
+
+.copywright {
+display:flex;
+justify-content: center;
+padding-bottom: 100px;
+}
+
+
+
+
+
+
+/* Below is css for services page*/
+
+
+.servimg{
+display:flex;
+justify-content: center;
+}
+
+.section{
+display:flex;
+width:50%;
+flex-direction: column;
+justify-content: center;
+margin:auto;
+}
+
+
+.page{
+display:flex;
+width:50%;
+margin:auto;
+}
+
+.page2{
+display:flex;
+width:50%;
+margin:auto;
+}
+
+.page3{
+display:flex;
+width:50%;
+margin:auto;
+}
+
+
+.digital{
+background: lightgrey;
+padding:20px;
+}
+
+
+
+
+.facts{
+display:flex;
+width:50%;
+justify-contents:center;
+margin:auto;
+padding-bottom:100px;
+padding-top:30px;
+}
+.break{
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+margin:auto;
+width:50%;
+}
+
+.break p{
+width: 90%;
+padding-bottom:20px;
+}
+
+
+.copy{
+display:flex;
+justify-content: center;
+width:50%;
+margin:auto;
+padding-bottom:30px;
+}
