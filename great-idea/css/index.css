@@ -214,22 +214,28 @@ width:50%;
 margin:auto;
 }
 
-
 .digital{
-background: lightgrey;
+	
+}
+.digital{
+background: whitesmoke;
+border:2px solid black;
 padding:20px;
+margin-right:20px;
 }
 
 
 
-
+.info-img{
+	padding-top: 50px;
+}
 .facts{
 display:flex;
 width:50%;
 justify-contents:center;
 margin:auto;
 padding-bottom:100px;
-padding-top:30px;
+padding-top:10px;
 }
 .break{
 display:flex;
@@ -251,4 +257,13 @@ justify-content: center;
 width:50%;
 margin:auto;
 padding-bottom:30px;
+}
+
+.learn{
+	border: 1px solid black;
+    width: 50%;
+    background: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
 }
